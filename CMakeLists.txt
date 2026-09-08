@@ -29,6 +29,5 @@ add_executable(Asteroids src/main.cpp)
 target_link_libraries(Asteroids PRIVATE
     SFML::Graphics
     SFML::Window
-    SFML::System
     SFML::Audio
 )
