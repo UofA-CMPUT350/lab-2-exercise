@@ -294,7 +294,7 @@ private:
                                      asteroid.shape.getPosition(), asteroid.shape.getRadius())) {
                     bullet.isAlive = false;
                     asteroid.isAlive = false;
-                    // --- TODO: Add Explosion Sound Effect ---
+                    // TODO: Add Explosion Sound Effect
                     // Play explosion sound!
 
                     break;  // Bullet can only hit one asteroid
@@ -307,8 +307,7 @@ private:
         for (auto& asteroid : mAsteroids) {
             if (!asteroid.isAlive) continue;
             // =====
-            // TODO:
-            // Use Circle-Circle intersection test (circlesIntersect)
+            // TODO: Use Circle-Circle intersection test (circlesIntersect)
             // to determine if the spaceship's hitbox collides with an asteroid.
             // If so, kill the asteroid and play an explosion sound.
         }
